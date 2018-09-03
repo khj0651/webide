@@ -64,7 +64,7 @@ http://192.168.0.8:5050/auth/realms/che/broker/uaa-idp/endpoint/descriptor
 ```
 예)
 // http://192.168.0.8:5050/auth/realms/che/broker/uaa-idp/endpoint
-http://192.168.0.8:5050/auth/realms/che/broker/uaa->idp/endpoint/clients/uaa
+http://192.168.0.8:5050/auth/realms/che/broker/uaa-idp/endpoint/clients/uaa
 ```
 
 
