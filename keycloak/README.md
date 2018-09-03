@@ -20,7 +20,7 @@ Eclipse Che의 계정 및 인증체계 모듈인 Keycloak과 UAA 간 연계를 �
 ### SAML Client 생성
 ```
 Clients > Add Client  
- > Client ID: uaa-saml-client  
+ > Client ID: uaa-saml  
    Client Protocol: saml  
    Client SAML Endpoint: http://192.168.0.8:8089/dashboard/#/
 ```
