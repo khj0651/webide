@@ -24,6 +24,7 @@ Clients > Add Client
    Client Protocol: saml  
    Client SAML Endpoint: http://192.168.0.8:8089/dashboard/#/
 ```
+![alt text](https://github.com/khj0651/webide/blob/master/keycloak/1.add%20saml%20client.png)
 
 #### 저장 후 상세정보 수정
 ```
@@ -32,6 +33,7 @@ Clients > uaa-saml-client
    SAML Signature Key Name : NONE  
    IDP Initiated SSO URL Name : uaa
 ```
+![alt text](https://github.com/khj0651/webide/blob/master/keycloak/2.detail.png)
 
 ### Identity Provider (SAML v2.0) 생성
 ```
@@ -50,6 +52,7 @@ Import External IDP Config > UAA의 IdP Metadata Xml 파일 선택 > Import
    SAML Signature Key Name "NONE"  
    Force Authentication "ON"
 ```
+![alt text](https://github.com/khj0651/webide/blob/master/keycloak/3.idp.png)
 
 ### Service Provider Metadata 가져오기
 Idp(uaa-idp)의 Export tab에서 Download  
