@@ -28,7 +28,7 @@ Clients > Add Client
 
 #### 저장 후 상세정보 수정
 ```
-Clients > uaa-saml-client 
+Clients > uaa-saml 
  > Signature Algorithm : RSA_SHA1  
    SAML Signature Key Name : NONE  
    IDP Initiated SSO URL Name : uaa
