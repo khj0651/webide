@@ -5,7 +5,7 @@ docker run -it \
   -e CHE_HOST=192.168.0.8 \
   -e CHE_PORT=8089 \
   -v /var/run/docker.sock:/var/run/docker.sock \
-  -v ~/workspace/webide/che-multiuser:/data \
+  -v ~/workspace/webide/.che-multiuser:/data \
   eclipse/che:6.9.0 start
 ```
 
