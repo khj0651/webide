@@ -21,6 +21,8 @@ Clients > uaa-saml
  > Signature Algorithm : RSA_SHA1  
    SAML Signature Key Name : NONE  
    IDP Initiated SSO URL Name : uaa
+   Fine Grain SAML Endpoint Configuration
+     Logout Service Redirect Binding URL : http://192.168.0.14:5050/auth/realms/che/protocol/openid-connect/logout
 ```
 ![alt text](https://github.com/khj0651/webide/blob/master/keycloak/2.detail.png)
 
@@ -29,7 +31,7 @@ Clients > uaa-saml
 ```
 Identity Providers > Add identity provider  
 Import External IDP Config > UAA의 IdP Metadata Xml 파일 선택 > Import  
- > Alias "uaa-idp"  
+ > Alias "UAA"  
    Enabled "ON"  
    Store Tokens "ON"  
    Stored Tokens Readable "ON"  
