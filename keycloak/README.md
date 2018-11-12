@@ -25,7 +25,7 @@ Clients > uaa-saml
 ![alt text](https://github.com/khj0651/webide/blob/master/keycloak/2.detail.png)
 
 ### Identity Provider (SAML v2.0) 생성
-> 참고) UAA의 IdP Metadata Xml 파일: [IdP Metadata 가져오기](idp-metadata-가져오기)  
+> 참고) UAA의 IdP Metadata Xml 파일: [IdP Metadata 가져오기](#idp-metadata-가져오기)  
 ```
 Identity Providers > Add identity provider  
 Import External IDP Config > UAA의 IdP Metadata Xml 파일 선택 > Import  
